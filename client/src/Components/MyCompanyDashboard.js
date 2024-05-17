@@ -109,9 +109,10 @@ function MyCompanyDashboard() {
                   <span
                     style={{
                       marginLeft: "1%",
-                      fontSize: "100%",
+                      fontSize: "120%",
+                      fontWeight: 700,
                       wordBreak: "break-all",
-                      color: "crimson",
+                      color: "#D63484",
                       fontWeight: "normal",
                     }}
                   >
