@@ -17,7 +17,7 @@ function College({dt}) {
         </Row>
         </Col>
         <Col style={{display:"flex",alignItems:"center",justifyContent:"end"}}>
-        <Link to={`/clgfromcmpny/${dt._id}`}><div></div><div><Button className="px-5 py-2" style={{fontSize:"120%",backgroundColor:"cadetblue",borderRadius:"15px"}}>View</Button></div>
+        <Link to={`/clgfromcmpny/${dt._id}`}><div></div><div><Button className="px-5 py-2" style={{fontSize:"120%", background: "linear-gradient(10deg, #D63484, #1d4ed8)",borderRadius:"15px"}}>View</Button></div>
         </Link>
         </Col>
     </Row>
