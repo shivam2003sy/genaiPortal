@@ -42,17 +42,17 @@ function InstituteSignUp() {
 
   return (
     <div>
-      <Row style={{ backgroundColor: "#ec4899", padding: "20px" }}>
+      <Row style={{ background: "linear-gradient(to right, #D63484, #1d4ed8)", padding: "20px" }}>
         <div
           style={{
             color: "white",
-            backgroundColor: "#ec4899",
+            background: "linear-gradient(to right, #D63484, #1d4ed8)",
             fontSize: "160%",
             fontWeight: "bold",
             fontFamily: "sans-serif",
           }}
         >
-          GEN-AI
+          <span style={{fontSize: "130%"}}>GEN-AI </span>(Campus Placement Information & Training Portal)
         </div>
       </Row>
       <Container>

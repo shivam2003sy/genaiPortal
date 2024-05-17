@@ -41,16 +41,18 @@ const gosearch = ()=>{
     <Container fluid>
     <Row>
     <CompanyProfile val = '5'/>
-    <Col xl="10" lg="10" md = "9" sm ="12" xs="12" style={{marginTop:"1%",marginBottom:"10%"}}>
+    <Col xl="9" lg="9" md = "9" sm ="12" xs="12" style={{marginTop:"1%",marginBottom:"10%"}}>
         <Row  style={{display:"flex",justifyContent:"end"}}>
           <Col sm = {12} xs={12} md={6} lg={6}>
             <Form style={{display:"flex"}}>
           <input placeholder="Search College" className='inp'/>
-          <Button onClick={gosearch} style={{marginLeft:"2%",width:"70%",height:"50px",backgroundColor:"black",marginTop:"1%"}}>Search</Button>
+          <Button onClick={gosearch} style={{ width: "auto",
+                      height: "auto",
+                      background: "linear-gradient(10deg, #D63484, #1d4ed8)",}}>Search</Button>
           </Form></Col>
           </Row>
           <Row>
-            <Col className='Heading'>
+            <Col className='Heading bg-gradient-to-r text-transparent from-primary to-secondary bg-clip-text'>
               Current Applications
             </Col>
           </Row>

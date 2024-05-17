@@ -10,17 +10,17 @@ import Footer from "./Components/Home/Footer";
 function Home() {
   return (
     <Container fluid>
-      <Row style={{ backgroundColor: "#ec4899", padding: "20px" }}>
+       <Row style={{ background: "linear-gradient(to right, #D63484, #1d4ed8)", padding: "20px" }}>
         <div
           style={{
             color: "white",
-            backgroundColor: "#ec4899",
+            background: "linear-gradient(to right, #D63484, #1d4ed8)",
             fontSize: "160%",
             fontWeight: "bold",
             fontFamily: "sans-serif",
           }}
         >
-          GEN-AI
+          <span style={{fontSize: "130%"}}>GEN-AI </span>(Campus Placement Information & Training Portal)
         </div>
       </Row>
       <Row>
@@ -29,42 +29,6 @@ function Home() {
         <CTASection />
         <Footer/>
       </Row>
-      {/* <Row style={{ display: "flex", marginTop: "2%", marginBottom: "6%" }}>
-        <Col style={{ display: "flex", justifyContent: "end" }}>
-          <Link to="/companylogin">
-            <Button
-              style={{
-                fontSize: "150%",
-                color: "black",
-                backgroundColor: "white",
-                fontWeight: "bold",
-                fontFamily: "sans-serif",
-                borderRadius: "17px",
-                width: "115%",
-              }}
-            >
-              Company
-            </Button>
-          </Link>
-        </Col>
-        <Col style={{ display: "flex", justifyContent: "start" }}>
-          <Link to="/institutelogin">
-            <Button
-              style={{
-                fontSize: "150%",
-                color: "white",
-                backgroundColor: "black",
-                fontWeight: "bold",
-                fontFamily: "sans-serif",
-                borderRadius: "17px",
-                width: "115%",
-              }}
-            >
-              Student
-            </Button>
-          </Link>
-        </Col>
-      </Row> */}
     </Container>
   );
 }

@@ -15,7 +15,7 @@ const companyLogin = async (req, res) => {
 
                 if (validPassword) {
                     return res.status(201).json({
-                        message: `Hey ${user.companyName}, Welcome to Virtual Placement Cell.`,
+                        message: `Hey ${user.companyName}, Welcome to GEN-AI.`,
                         accessToken
                     })
                 }
