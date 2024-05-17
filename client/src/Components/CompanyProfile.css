@@ -9,20 +9,22 @@
     border:none;
     font-size:100%;
     color:white;
-    background-color:cadetblue;
+    background-color: "#2563eb";
     margin-bottom:10%;
 }
 .but2:hover{
-    background-color: cadetblue;
+    background-color: "#2563eb";
 }
 .but1:hover{
-    background-color: cadetblue;
+    background-color: "#2563eb";
 }
 .inp{
     margin-top: 1%;
-    padding:4% 2%;
+    margin-right: 2% ;
+    padding:4% 5%;
     width:300%;
-    height:20px;
+    height:50px;
+    background-color: "#d4d4d8";
     border-radius:12px;}
 .Heading{
     font-size: 300%;
